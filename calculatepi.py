@@ -21,3 +21,14 @@ The approximate value of pi is 3.1315929
 Note: remember that the printed value of pi will be an estimate!
 
 """
+import math 
+a = input("I will estimate pi. How many terms should I use? ")
+
+d = input("How many decimal places should I use in the result? ")
+
+t=int(a)
+terms = range(1,t+1) 
+
+pi = (4*(sum([((-1.0)**k)/((2*k)+1) for k in range(0,t)])))
+
+print(pi)
