@@ -33,5 +33,4 @@ terms = range(1,t+1)
 
 pi = (4*(sum([((-1.0)**k)/((2*k)+1) for k in range(0,t)])))
 
-print(pi)
 print("The approximate value of pi is {0}".format(round(pi, de)))
