@@ -1,7 +1,7 @@
 """
 calculatepi.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Johari Ajwang
+Credit: none
 Assignment:
 
 Write and submit a Python program that computes an approximate value of π by calculating the following sum:
